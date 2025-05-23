@@ -3,6 +3,8 @@ project(SpaceInvaders)
 
 set(CMAKE_CXX_STANDARD 17)
 
+set(FTXUI_ENABLE_INSTALL OFF CACHE INTERNAL "")
+
 include(FetchContent)
 FetchContent_Declare(
   ftxui

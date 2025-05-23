@@ -1,7 +1,8 @@
 #pragma once
 #include "Entity.h"
 
-struct Bullet : public Entity {
+class Bullet : public Entity {
+public:
     bool active = false;
     int dx = 0;
     Bullet();

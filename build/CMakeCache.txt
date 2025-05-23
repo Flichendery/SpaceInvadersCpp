@@ -352,9 +352,6 @@ FTXUI_DEV_WARNINGS:BOOL=OFF
 //Execute code coverage
 FTXUI_ENABLE_COVERAGE:BOOL=OFF
 
-//Generate the install target
-FTXUI_ENABLE_INSTALL:BOOL=ON
-
 //On windows, assume the terminal used will be one of Microsoft
 // and use a set of reasonnable fallback to counteract its implementations
 // problems.
@@ -588,6 +585,8 @@ CPACK_SOURCE_7Z-ADVANCED:INTERNAL=1
 CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Generate the install target
+FTXUI_ENABLE_INSTALL:INTERNAL=OFF
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //linker supports push/pop state
